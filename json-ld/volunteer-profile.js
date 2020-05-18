@@ -1,3 +1,0 @@
-{
-  "tbd": "coming soon"
-}
