@@ -87,7 +87,12 @@
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="event.html">Event Resource</a></li>
 <li class="toctree-l1"><a class="reference internal" href="call-for-volunteers.html">Call for Volunteers Resource</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Volunteer Profile Resource</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Volunteer Profile Resource</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#example">Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#json-schema">JSON Schema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#json-ld-context">JSON-LD Context</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -153,7 +158,53 @@
            <div itemprop="articleBody">
             
   <div class="section" id="volunteer-profile-resource">
-<h1>Volunteer Profile Resource<a class="headerlink" href="#volunteer-profile-resource" title="Permalink to this headline">¶</a></h1>
+<span id="volunteer-profile"></span><span id="index-0"></span><h1>Volunteer Profile Resource<a class="headerlink" href="#volunteer-profile-resource" title="Permalink to this headline">¶</a></h1>
+<p>A <em>Volunteer Profile Resource</em> may be published by an individual who is willing to
+participate as a volunteer in one or more volunteer events to be matched with volunteer
+opportunities.</p>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;@context&quot;</span><span class="p">:</span> <span class="s2">&quot;https://opentechresponse/api/jsonld/volunteer-profile&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;slug&quot;</span><span class="p">:</span> <span class="s2">&quot;some-name&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;somename@example.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;href&quot;</span><span class="p">:</span> <span class="n">null</span><span class="p">,</span>
+    <span class="s2">&quot;github_profile&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/example&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;gitlab_profile&quot;</span><span class="p">:</span> <span class="s2">&quot;https://gitlab.com/example&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;linkedin_profile&quot;</span><span class="p">:</span> <span class="s2">&quot;https://linkedin.com/in/somename&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;volunteer_events&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;https://opentechresponse/api/events/covid-19&quot;</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;skills&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;skill&quot;</span><span class="p">:</span> <span class="s2">&quot;python&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;proficiency&quot;</span><span class="p">:</span> <span class="s2">&quot;expert&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;skill&quot;</span><span class="p">:</span> <span class="s2">&quot;javascript&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;proficiency&quot;</span><span class="p">:</span> <span class="s2">&quot;proficient&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="json-schema">
+<h2>JSON Schema<a class="headerlink" href="#json-schema" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;tbd&quot;</span><span class="p">:</span> <span class="s2">&quot;coming soon&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="json-ld-context">
+<h2>JSON-LD Context<a class="headerlink" href="#json-ld-context" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;tbd&quot;</span><span class="p">:</span> <span class="s2">&quot;coming soon&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 

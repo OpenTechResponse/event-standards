@@ -1,8 +1,8 @@
 .. OpenTechResponse Event Standards documentation master file, created by
    sphinx-quickstart on Thu May 14 10:06:09 2020.
 
-Welcome to OpenTechResponse Event Standards's documentation!
-============================================================
+OpenTechResponse Event Standards
+================================
 
 .. toctree::
    :maxdepth: 2
