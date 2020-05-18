@@ -19,6 +19,10 @@
             "description": "JSON-LD context for the volunteer event resource type.",
             "const": "http://opentechresponse.com/api/json-ld/event"
         },
+        "slug": {
+            "type": "string",
+            "description": "Suggested URL segment name for indexing, re-publication, or other purposes."
+        },
         "email": {
             "type": "string",
             "description": "An email address to contact for questions, comments, or other communications regarding the volunteer event.",
